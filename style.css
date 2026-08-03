@@ -1,12 +1,13 @@
-img{
-    align-items: left;
+
+body{
+    margin-left: 150px;
+    margin-right : 150px;
 }
-nav{
+header{
     display: flex;
-    flex-direction : row;
     justify-content: space-between;
     align-items: right;
-    margin-left: 50px;
+    padding: 10px 10px;
 }
 nav a {
     color: black;
@@ -16,12 +17,37 @@ nav a {
     height: 50px;
     width: 50px;
 }
-nav{
-    display: block;
-    margin-left: 50px;
+#content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.Projects{
+    padding : 20px;
+    text-align : left
+}
+.Work-Experience{
+    padding : 20px;
+    text-align : center;
+}
+.Education{
+    padding : 20px;
+    text-align : right;
 }
 footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+#accueil h1{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    padding-bottom: 100px;
+}
+.ligne-verticale{
+    border-left: 2px solid black;
+    height: 100px;
+    margin: 0 auto;
 }
