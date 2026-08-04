@@ -109,3 +109,6 @@ h4:hover{
 #Reviews h2:hover{
     background-color: rgb(190, 255, 37) ;
 }
+h1:hover{
+    color: rgba(170, 53, 92, 0.5);
+}
