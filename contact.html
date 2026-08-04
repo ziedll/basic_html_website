@@ -7,26 +7,30 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-         <div>
-            <img class="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAVEAEBAAAAAAAAAAAAAAAAAAAAAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aw8BVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAAAAAAAAAAAASgoICiKABAAAAAAAAAAAAAAAKigIVQEWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALEAAAAAAAH/9k=" alt="logo">
-            <p>Zied</p>
+      <header>
+        <div>
+            <img class="logo"
+                src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAWAAEBAQAAAAAAAAAAAAAAAAAAAQf/xAAVEAEBAAAAAAAAAAAAAAAAAAAAAf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8Aw8BVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApAAAAAAAAAAAAAAAAAAAASgoICiKABAAAAAAAAAAAAAAAKigIVQEWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALEAAAAAAAH/9k="
+                alt="logo" />
+            <span class="text">Zied</span>
         </div>
         <nav>
             <ul>
                 <a href="index.html"> Home / </a>
-                <a href="index.html"> Projets / </a>
-                <a href="index.html"> Articles /</a>
+                <a href="index.html#Content"> Projects / </a>
+                <a href="index.html#Reviews"> Articles /</a>
                 <a href="contact.html"> Contact</a>
             </ul>
         </nav>
     </header>
     <main>
-        <form action="POST">
+        <form>
             <label for="email">Your e-mail</label>
             <input type="email" id="email" name ="email"/>
             <label for="text">Your message</label>
             <input type="text" id="text" name="text">
+            <button popovertarget="#my-popover">Envoyer</button>
+            <div popover id="my-popover">Message envoyé&nbsp;!</div>
         </form>
     </main>
 </body>
